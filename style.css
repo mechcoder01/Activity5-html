@@ -1,0 +1,90 @@
+/* General layout */
+
+body{
+    font-family : Arial , sans-serif;
+    font-family : Arial ,sans-serif; 
+    margin : 0;
+    padding : 20;
+    background-color : #f9f9f9 
+}
+
+.container{
+    max-width : 800px;
+    margin : 0 auto;
+    padding :20px;
+    background-color: #f9f9f9;
+}
+
+.selection{
+    margin : 40px;
+
+
+}
+
+h2{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+ /* Form Elements Styling */ 
+
+ label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+
+ }
+ input, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+ }
+
+ input:focus , select:focus , textarea:focus{
+    border-color :#2196F3
+    outline = none ;
+ }
+
+button{
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button[type="submit"]:hover{
+    background-color: #1976D2;
+}
+/* Table styling */
+.table-responsive{
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #f9f9f9;
+    
+}
+th, td{
+    padding: 12px 24px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+tr{
+    background : #f9f9f9;
+}
+
+  section{
+    text-align : left;
+  }  
+    
+    
+    
